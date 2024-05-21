@@ -67,3 +67,13 @@ a {
 .sub-nav-link:hover {
     color: var(--color-primary) !important;
 }
+
+.banner a img {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.0);
+}
+
+.banner a img:hover {
+    transform: scale(1.1);
+
+}
